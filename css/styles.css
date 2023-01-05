@@ -462,10 +462,6 @@ body {
   color: var(--brand-color-white);
 }
 
-/* .address {
-  font-style: normal;
-} */
-
 .end-section__item {
   text-decoration: none;
   font-size: 14px;
@@ -477,17 +473,8 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .end-section__item--mail {
-  /* text-decoration: none; 
-  font-size: 14px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);  */
   text-decoration-line: underline;
 }
-
-/* .end-section__link {
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
 
 .end-section__item:hover,
 .end-section__item:focus {
@@ -574,17 +561,14 @@ body {
   outline: none;
 }
 
-.icon-newsletter {
+.newsletter__icon {
   fill: var(--brand-color-white);
 }
 
 /* ===========PORTFOLIO============= */
-/* .portfolio-bg {
-  background-color: var(--brand-color-white);
-} */
 
 /* BUTTONS LIST */
-.submenu__buttons-list {
+.submenu {
   display: flex;
   justify-content: center;
   gap: 8px;
