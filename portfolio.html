@@ -25,31 +25,31 @@
   </head>
 
   <!-- HEADER -->
-  <body class="portfolio-bg">
-    <header class="top-section">
-      <div class="nav-container container">
+        <body>
+    <header class="header">
+      <div class="header__container container">
         <!-- NAVIGATION-->
-        <nav class="nav">
-          <a class="logo" href="./index.html">Web<span class="logo-black">Studio</span></a>
-          <ul class="nav-list">
+        <nav class="header__nav">
+          <a class="logo" href="./index.html">Web<span class="logo__header">Studio</span></a>
+          <ul class="header__nav-list">
             <li>
-              <a class="none-active" href="#">Agencja</a>
+              <a class=" header__link " href="#">Agencja</a>
             </li>
-            <li><a class="is-active" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="header__link header__link--is-active" href="./portfolio.html">Portfolio</a></li>
             <li>
-              <a class="none-active" href="#">Kontakt</a>
+              <a class="header__link" href="#">Kontakt</a>
             </li>
           </ul>
         </nav>
 
-        <div class="link-contacts">
-          <a href="mailto:info@devstudio.com">
-            <svg class="contact-icon" width="16" height="12">
+       <div class="header__menu-contact">
+          <a class="header__menu-contact-link" href="mailto:info@devstudio.com">
+            <svg class="header__menu-contact-icon" width="16" height="12">
               <use href="./images/icons.svg#icon-envelope"></use></svg
             >info@devstudio.com</a
           >
-          <a href="tel:+48111111111">
-            <svg class="contact-icon" width="10" height="16">
+          <a class="header__menu-contact-link" href="tel:+48111111111">
+            <svg class="header__menu-contact-icon" width="10" height="16">
               <use href="./images/icons.svg#icon-smartphone"></use>
             </svg>
             +48 111 111 111
@@ -62,32 +62,32 @@
     <main>
       <section class="section">
         <div class="container">
-          <ul class="buttons list">
+          <ul class="submenu__buttons-list ">
             <li>
-              <button class="buttons-text" type="button">Wszystkie</button>
+              <button class="submenu__button-text" type="button">Wszystkie</button>
             </li>
-            <li><button class="buttons-text" type="button">Strony</button></li>
+            <li><button class="submenu__button-text" type="button">Strony</button></li>
             <li>
-              <button class="buttons-text" type="button">Aplikacje</button>
+              <button class="submenu__button-text" type="button">Aplikacje</button>
             </li>
-            <li><button class="buttons-text" type="button">Dizajn</button></li>
+            <li><button class="submenu__button-text" type="button">Dizajn</button></li>
             <li>
-              <button class="buttons-text" type="button">Marketing</button>
+              <button class="submenu__button-text" type="button">Marketing</button>
             </li>
           </ul>
 
           <!-- PROJECTS -->
           <ul class="projects">
-            <li>
-              <figure>
-                <div class="project-photo">
+            <li class="projects__list">
+              <figure class="projects__figure">
+                <div class="projects__photo">
                   <img
                     src="./images/portfolio/img1.jpg"
                     width="370"
                     height="294"
                     alt="open laptop"
                   />
-                  <div class="projects-description">
+                  <div class="projects__description">
                     <p>
                       Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
                       koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
@@ -95,22 +95,22 @@
                     </p>
                   </div>
                 </div>
-                <figcaption class="project-subtitles">
-                  <h3 class="project-name">Technocrack</h3>
-                  <p class="project-type">Strona internetowa</p>
+                <figcaption class="projects__subtitles">
+                  <h3 class="projects__name">Technocrack</h3>
+                  <p class="projects__type">Strona internetowa</p>
                 </figcaption>
               </figure>
             </li>
-            <li>
-              <figure>
-                <div class="project-photo">
+            <li class="projects__list">
+              <figure class="projects__figure">
+                <div class="projects__photo">
                   <img
                     src="./images/portfolio/img2.jpg"
                     width="370"
                     height="294"
                     alt="basketball graphics"
                   />
-                  <div class="projects-description">
+                  <div class="projects__description">
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam iusto
                       repudiandae mollitia quas quibusdam aspernatur eos asperiores facere quae at
@@ -118,22 +118,22 @@
                     </p>
                   </div>
                 </div>
-                <figcaption class="project-subtitles">
-                  <h3 class="project-name">Grafika New Orlean vs Golden Star</h3>
-                  <p class="project-type">Dizajn</p>
+                <figcaption class="projects__subtitles">
+                  <h3 class="projects__name">Grafika New Orlean vs Golden Star</h3>
+                  <p class="projects__type">Dizajn</p>
                 </figcaption>
               </figure>
             </li>
-            <li>
-              <figure>
-                <div class="project-photo">
+            <li class="projects__list">
+              <figure class="projects__figure">
+                <div class="projects__photo">
                   <img
                     src="./images/portfolio/img3.jpg"
                     width="370"
                     height="294"
                     alt="Logo of restaurant"
                   />
-                  <div class="projects-description">
+                  <div class="projects__description">
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam iusto
                       repudiandae mollitia quas quibusdam aspernatur eos asperiores facere quae at
@@ -141,22 +141,22 @@
                     </p>
                   </div>
                 </div>
-                <figcaption class="project-subtitles">
-                  <h3 class="project-name">Restauracja Seafood</h3>
-                  <p class="project-type">Aplikacja</p>
+                <figcaption class="projects__subtitles">
+                  <h3 class="projects__name">Restauracja Seafood</h3>
+                  <p class="projects__type">Aplikacja</p>
                 </figcaption>
               </figure>
             </li>
-            <li>
-              <figure>
-                <div class="project-photo">
+            <li class="projects__list">
+              <figure class="projects__figure">
+                <div class="projects__photo">
                   <img
                     src="./images/portfolio/img4.jpg"
                     width="370"
                     height="294"
                     alt="headphones"
                   />
-                  <div class="projects-description">
+                  <div class="projects__description">
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam iusto
                       repudiandae mollitia quas quibusdam aspernatur eos asperiores facere quae at
@@ -164,17 +164,17 @@
                     </p>
                   </div>
                 </div>
-                <figcaption class="project-subtitles">
-                  <h3 class="project-name">Projekt Prime</h3>
-                  <p class="project-type">Marketing</p>
+                <figcaption class="projects__subtitles">
+                  <h3 class="projects__name">Projekt Prime</h3>
+                  <p class="projects__type">Marketing</p>
                 </figcaption>
               </figure>
             </li>
-            <li>
-              <figure>
-                <div class="project-photo">
+            <li class="projects__list">
+              <figure class="projects__figure">
+                <div class="projects__photo">
                   <img src="./images/portfolio/img5.jpg" width="370" height="294" alt="two boxes" />
-                  <div class="projects-description">
+                  <div class="projects__description">
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam iusto
                       repudiandae mollitia quas quibusdam aspernatur eos asperiores facere quae at
@@ -182,17 +182,17 @@
                     </p>
                   </div>
                 </div>
-                <figcaption class="project-subtitles">
-                  <h3 class="project-name">Projekt Boxes</h3>
-                  <p class="project-type">Aplikacja</p>
+                <figcaption class="projects__subtitles">
+                  <h3 class="projects__name">Projekt Boxes</h3>
+                  <p class="projects__type">Aplikacja</p>
                 </figcaption>
               </figure>
             </li>
-            <li>
-              <figure>
-                <div class="project-photo">
+            <li class="projects__list">
+              <figure class="projects__figure">
+                <div class="projects__photo">
                   <img src="./images/portfolio/img6.jpg" width="370" height="294" alt="monitor" />
-                  <div class="projects-description">
+                  <div class="projects__description">
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam iusto
                       repudiandae mollitia quas quibusdam aspernatur eos asperiores facere quae at
@@ -200,17 +200,17 @@
                     </p>
                   </div>
                 </div>
-                <figcaption class="project-subtitles">
-                  <h3 class="project-name">Inspiration has no Borders</h3>
-                  <p class="project-type">Strona internetowa</p>
+                <figcaption class="projects__subtitles">
+                  <h3 class="projects__name">Inspiration has no Borders</h3>
+                  <p class="projects__type">Strona internetowa</p>
                 </figcaption>
               </figure>
             </li>
-            <li>
-              <figure>
-                <div class="project-photo">
+            <li class="projects__list">
+              <figure class="projects__figure">
+                <div class="projects__photo">
                   <img src="./images/portfolio/img7.jpg" width="370" height="294" alt="magazyn" />
-                  <div class="projects-description">
+                  <div class="projects__description">
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam iusto
                       repudiandae mollitia quas quibusdam aspernatur eos asperiores facere quae at
@@ -218,17 +218,17 @@
                     </p>
                   </div>
                 </div>
-                <figcaption class="project-subtitles">
-                  <h3 class="project-name">Magazyn Limited Edition</h3>
-                  <p class="project-type">Dizajn</p>
+                <figcaption class="projects__subtitles">
+                  <h3 class="projects__name">Magazyn Limited Edition</h3>
+                  <p class="projects__type">Dizajn</p>
                 </figcaption>
               </figure>
             </li>
-            <li>
-              <figure>
-                <div class="project-photo">
+            <li class="projects__list">
+              <figure class="projects__figure">
+                <div class="projects__photo">
                   <img src="./images/portfolio/img8.jpg" width="370" height="294" alt="tag" />
-                  <div class="projects-description">
+                  <div class="projects__description">
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam iusto
                       repudiandae mollitia quas quibusdam aspernatur eos asperiores facere quae at
@@ -236,17 +236,17 @@
                     </p>
                   </div>
                 </div>
-                <figcaption class="project-subtitles">
-                  <h3 class="project-name">Projekt LAB</h3>
-                  <p class="project-type">Marketing</p>
+                <figcaption class="projects__subtitles">
+                  <h3 class="projects__name">Projekt LAB</h3>
+                  <p class="projects__type">Marketing</p>
                 </figcaption>
               </figure>
             </li>
-            <li>
-              <figure>
-                <div class="project-photo">
+            <li class="projects__list">
+              <figure class="projects__figure">
+                <div class="projects__photo">
                   <img src="./images/portfolio/img9.jpg" width="370" height="294" alt="web pages" />
-                  <div class="projects-description">
+                  <div class="projects__description">
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam iusto
                       repudiandae mollitia quas quibusdam aspernatur eos asperiores facere quae at
@@ -254,9 +254,9 @@
                     </p>
                   </div>
                 </div>
-                <figcaption class="project-subtitles">
-                  <h3 class="project-name">Growing Business</h3>
-                  <p class="project-type">Aplikacja</p>
+                <figcaption class="projects__subtitles">
+                  <h3 class="projects__name">Growing Business</h3>
+                  <p class="projects__type">Aplikacja</p>
                 </figcaption>
               </figure>
             </li>
@@ -267,48 +267,48 @@
 
     <!-- FOOTTER  -->
     <footer class="end-section">
-      <div class="container end-section-flex">
-        <div>
-          <a class="logo" href="./index.html"> Web<span class="logo-white">Studio</span></a>
-          <address class="our-address">
+      <div class="container end-section__flex">
+        <div >
+          <a class="logo" href="./index.html"> Web<span class="logo logo--footer">Studio</span></a>
+          <address class="end-section__contact">
             <ul>
               <li>
-                <span class="address">m. Warszawa, Aleje Jerozolimskie 21</span>
+                <span class="end-section__address" >m. Warszawa, Aleje Jerozolimskie 21</span>
+              </li>
+              <li >
+                <a class="end-section__item end-section__item--mail " href="mailto:info@devstudio.com">info@example.com</a>
               </li>
               <li>
-                <a class="contact-mail" href="mailto:info@devstudio.com">info@example.com</a>
-              </li>
-              <li>
-                <a class="contact-tel" href="tel:+48111111111">+48 111 111 111</a>
+                <a class="end-section__item" href="tel:+48111111111">+48 111 111 111</a>
               </li>
             </ul>
           </address>
         </div>
 
         <!-- JOIN-US -->
-        <div class="join-us">
-          <p>Dołącz do nas</p>
-          <ul class="join-us-list">
-            <li>
-              <a href="#"
-                ><svg width="20" height="20">
+       <div class="join-us">
+          <p class="join-us__title">Dołącz do nas</p>
+          <ul class="join-us__list">
+            <li class="join-us__item">
+              <a class="join-us__icon" href="#"
+                ><svg  width="20" height="20">
                   <use href="images/icons.svg#icon-instagram"></use></svg
               ></a>
             </li>
-            <li>
-              <a href="#"
+            <li class="join-us__item">
+              <a class="join-us__icon" href="#"
                 ><svg width="20" height="20">
                   <use href="images/icons.svg#icon-twitter"></use></svg
               ></a>
             </li>
             <li>
-              <a href="#"
+              <a class="join-us__icon" href="#"
                 ><svg width="20" height="20">
                   <use href="images/icons.svg#icon-facebook"></use></svg
               ></a>
             </li>
-            <li>
-              <a href="#"
+            <li class="join-us__item">
+              <a class="join-us__icon" href="#"
                 ><svg width="20" height="20">
                   <use href="images/icons.svg#icon-linkedin"></use></svg
               ></a>
@@ -318,16 +318,16 @@
 
         <!-- NEWSLETTER -->
         <div class="newsletter">
-          <p>Zapisz się do newslettera</p>
-          <form name="newsletter-form" class="newsletter-form">
+          <p class="newsletter__title">Zapisz się do newslettera</p>
+          <form name="newsletter__form" class="newsletter__form">
             <label
               ><input
                 type="email"
                 name="newsletter-email"
-                class="newsletter-input"
+                class="newsletter__input"
                 placeholder="E-mail"
             /></label>
-            <button type="submit" class="newsletter-btn">
+            <button type="submit" class="btn btn--newsletter">
               <span>Zapisz się</span>
               <svg class="icon-newsletter" width="24" height="24">
                 <use href="images/icons.svg#icon-icon-send"></use>
